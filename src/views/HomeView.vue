@@ -19,7 +19,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <p
           class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400"
         >
-          I've fervor for exploring and transforming raw data into actionable and valuable insights,
+          I've fervor for exploring and transforming raw data into actionable and valuable insights. <br>
           I’m open to work with individuals/organizations that want to make effective use of their data using cutting edge technologies.        </p>
         <div
           class="flex justify-center gap-5 mb-8 lg:mb-16 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4"
