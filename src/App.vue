@@ -16,7 +16,7 @@ import HelloWorld from './components/HelloWorld.vue'
       </RouterLink>
   <div class="items-center justify-between  w-full md:flex md:w-auto md:order-1" id="">
     
-    <ul class="flex justify-center py-4   font-medium border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+    <ul class="flex justify-end py-4   font-medium border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
      
         <RouterLink to="/about">About Me</RouterLink>
        
@@ -32,11 +32,11 @@ import HelloWorld from './components/HelloWorld.vue'
   <footer class="flex justify-center">
     <ul class="flex gap-4 justify-center">
     
-      <li><a href="#"><img src="../src/assets/static/linkedin.png" alt="linkedin"></a></li>
-      <li><a href="#"><img src="../src/assets/static/github.png" alt="github"></a></li>
-      <li><a href="#"><img src="../src/assets/static/twitter.png" alt="twitter"></a></li>
-      <li><a href="#"><img src="../src/assets/static/instagram.png" alt="instagram"></a></li>
-      <li><a href="#"><img src="../src/assets/static/kaggle.png" alt="kaggle"></a></li>
+      <li><a target="_blank" href="https://www.linkedin.com/in/abdullah-abubakar-5a7965197"><img src="../src/assets/static/linkedin.png" alt="linkedin"></a></li>
+      <li><a target="_blank" href="https://github.com/abdullah461"><img src="../src/assets/static/github.png" alt="github"></a></li>
+      <li><a target="_blank" href="https://twitter.com/Abu_______bakar"><img src="../src/assets/static/twitter.png" alt="twitter"></a></li>
+      <li><a target="_blank" href="https://www.instagram.com/abdvvl"><img src="../src/assets/static/instagram.png" alt="instagram"></a></li>
+      <li><a target="_blank" href="https://www.kaggle.com/abdullahabubakar"><img src="../src/assets/static/kaggle.png" alt="kaggle"></a></li>
     </ul>
   </footer>
 </template>
