@@ -16,7 +16,7 @@ import HelloWorld from './components/HelloWorld.vue'
       </RouterLink>
   <div class="items-center justify-between  w-full md:flex md:w-auto md:order-1" id="">
     
-    <ul class="flex justify-center p-4   font-medium border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+    <ul class="flex justify-center py-4   font-medium border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
      
         <RouterLink to="/about">About Me</RouterLink>
        
