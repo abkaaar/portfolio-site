@@ -14,7 +14,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <h1
           class="mb-4 text-4xl font-extrabold tracking-tight leading-none  md:text-5xl lg:text-6xl"
         >
-          Data Analyst
+          data analyst
         </h1>
         <p
           class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400"
@@ -45,8 +45,8 @@ import { RouterLink, RouterView } from 'vue-router'
         </div> -->
           
           <div class="grid grid-cols-1 md:grid-cols-3 p-4 gap-8 cvp">
-          <div class=" max-w-sm p-6 shadow hover:shadow-lg rounded-lg">
-            <img src="../assets/static/data-collection.png" alt="" >
+          <div class=" max-w-sm p-6 shadow hover:shadow-xl rounded-lg">
+            <img src="../assets/static/datacollection.png" alt="" >
           <div class="text-start">
             <h5 class="mt-6 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Collect</h5>
           
@@ -55,15 +55,15 @@ import { RouterLink, RouterView } from 'vue-router'
           </div>
           
         </div>
-        <div class="max-w-sm p-6 shadow hover:shadow-lg rounded-lg">
-            <img src="../assets/static/iteration.png" alt="">
+        <div class="max-w-sm p-6 shadow hover:shadow-xl rounded-lg">
+            <img src="../assets/static/natural-language-processing.png" alt="">
             <div class="text-start">
              <h5 class="mt-6 text-align-start mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Process</h5>
           <p class="mt-4 font-normal text-gray-500 dark:text-gray-400">I can offer support on improving existing workflows and creation of new processes, covering data transformation with SQL and predictive Analysis with Machine learning.</p>
           </div>
         </div>
-        <div class="max-w-sm p-6 shadow hover:shadow-lg rounded-lg">
-            <img src="../assets/static/data-visualization.png" alt="">
+        <div class="max-w-sm p-6 shadow hover:shadow-xl rounded-lg">
+            <img src="../assets/static/statistics.png" alt="">
             <div class="text-start">
               <h5 class="mt-6 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Visualize</h5>
           
@@ -89,10 +89,15 @@ font-family: 'Montserrat', sans-serif;
 
 }
 main h1{
-  color: #5988FF;
+  font-family: 'Zian', sans-serif;
+  color: black;
 }
 .r:hover{
   color: white;
-  background-color: #5988FF;
+  background-color: black;
+}
+img{
+  width: 50%;
+  height: auto;
 }
 </style>

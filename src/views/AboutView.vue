@@ -3,7 +3,7 @@
     <h1
       class="mb-4 text-4xl tracking-tight leading-none text-center md:text-5xl lg:text-6xl"
       >
-      About Me      
+      about me      
       </h1>
   </div>
   <div class="about">
@@ -62,8 +62,8 @@ article{
   font-family: 'Montserrat', sans-serif;
 }
 h1{
-font-family: 'Montserrat', sans-serif;
-color: #5988FF;
+font-family: 'Zian', sans-serif;
+color: black;
 }
 .about {
   min-height: 100vh;

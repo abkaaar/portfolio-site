@@ -1,7 +1,7 @@
 <template>
   <div class="header m-10">
     <h1 class="mb-4 text-4xl tracking-tight leading-none text-center md:text-5xl lg:text-6xl">
-      Projects
+      projects
     </h1>
 
     <p class="mt-8 text-center">A sample of my work</p>
@@ -84,14 +84,14 @@
   }
 } */
 .header h1 {
-  color: #5988ff;
+  color: black;
 }
 .post:hover {
   text-decoration: underline;
 }
 .box {
   color: #fff;
-  background: linear-gradient(to right, #5988ff, #ff6600);
+  background: linear-gradient(to right, #5988ff, #5988ff);
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   position: relative;
