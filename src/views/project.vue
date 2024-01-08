@@ -8,8 +8,8 @@
   </div>
 
   <div class="project flex justify-center items-center">
-    <div class="grid grid-cols-2 max-md:grid-cols-1 p-8 gap-8">
-      <div class="box text-center text-white flex justify-center rounded-lg">
+    <div class="grid grid-cols-2 max-md:grid-cols-1 p-8 gap-8 portfolio-container">
+      <div class="box text-center text-white flex justify-center rounded-lg portfolio-item">
         <img
           class="h-auto max-w-md rounded-lg scale-100"
           src="../assets/projects/migrants.jpg"
@@ -20,12 +20,12 @@
           <a
             target="_blank"
             href="https://app.powerbi.com/view?r=eyJrIjoiYmU1NjVjNTMtODc4My00NjYyLWJjYTItZGIzM2UwOWU5ODY1IiwidCI6ImM3NmZjOWRjLTc0OTQtNDhhOC1hYzFmLTg1YTJmZTI0ZWQzZiJ9"
-            class="post"
+            class="post portfolio-lightbox"
             >Analysis on Global Dead & missing Migrants 2014-2015</a
           >
         </div>
       </div>
-      <div class="box rounded-lg">
+      <div class="box rounded-lg portfolio-item">
         <img class="h-auto max-w-md rounded-lg" src="../assets/projects/bar3.png" alt="" />
         <div class="box-content">
           <h3 class="title"><strong>Personal project</strong></h3>
@@ -37,7 +37,7 @@
           >
         </div>
       </div>
-      <div class="box rounded-lg">
+      <div class="box rounded-lg portfolio-item">
         <img class="h-auto max-w-md rounded-lg" src="../assets/projects/un.jpeg" alt="" />
         <div class="box-content">
           <h3 class="title"><strong>Personal project</strong></h3>
@@ -46,8 +46,7 @@
           >
         </div>
       </div>
-
-      <div class="box rounded-lg">
+      <div class="box rounded-lg portfolio-item">
         <img
           class="h-auto max-w-md rounded-lg"
           src="../assets/projects/common-wealth.jpeg"
@@ -60,7 +59,7 @@
           >
         </div>
       </div>
-      <div class="box rounded-lg">
+      <div class="box rounded-lg portfolio-item">
         <img class="h-auto max-w-md rounded-lg" src="../assets/projects/sales.png" alt="" />
         <div class="box-content">
           <h3 class="title"><strong>Personal project</strong></h3>
@@ -176,3 +175,14 @@
   border-radius: 50px;
 }
 </style>
+<script>
+
+
+  /**
+   * Initiate portfolio lightbox 
+   */
+  // const portfolioLightbox = GLightbox({
+  //   selector: '.portfolio-lightbox'
+  // });
+
+</script>
