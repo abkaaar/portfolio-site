@@ -7,16 +7,15 @@ import HelloWorld from './components/HelloWorld.vue'
 
 
   <header>
-    <nav class="bg-white dark:bg-gray-900 w-full z-20 top-0 left-0">
+    <nav class="bg-white  w-full z-20 top-0 left-0">
   <div class="max-w-screen-xl flex justify-between items-center justify-center mx-auto p-2" id="na">
     <RouterLink to="/" class="">
-
-        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white sm:hidden" id="ull"><img src="../src/assets/static/lg.png" alt=""></span>
-        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white " id="full"><img src="../src/assets/static/aalogo-removebg-preview.png" alt=""></span>
+        <span class="self-center text-2xl font-semibold whitespace-nowrap" id="ull"><img src="../src/assets/static/lg.png" alt=""></span>
+        <span class="self-center text-2xl font-semibold whitespace-nowrap " id="full"><img src="../src/assets/static/aalogo-removebg-preview.png" alt=""></span>
       </RouterLink>
   <div class="items-center justify-between  w-full md:flex md:w-auto md:order-1" id="">
     
-    <ul class="flex justify-end py-4   font-medium border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+    <ul class="flex justify-end py-4   font-medium border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
      
         <RouterLink to="/about">about me</RouterLink>
        

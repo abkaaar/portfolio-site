@@ -8,12 +8,12 @@
   </div>
   <div class="about">
     <article class="max-w-screen-md">
-      <p class="mb-3 text-gray-500 dark:text-gray-400">
+      <p class="mb-3 text-gray-500">
         My name is Abubakar Abdullahi, a passionate Data Analyst with a
         deep-seated curiosity for Big Data and Analystics, Artificial Intelligence, software engineering and
         machine learning.
       </p>
-      <p class="mb-3 text-gray-500 dark:text-gray-400">
+      <p class="mb-3 text-gray-500">
         As a Data Analyst, I am passionate about working with organizations that want to make
         effective use of their data; from what you want to measure and how to capture data
         accurately through data preparation, analysis and management, all the way to impactful
@@ -23,11 +23,11 @@
         Databases, which allows me to transform and handle complex datasets into meaningful
         information.
       </p>
-      <p class="mb-3 text-gray-500 dark:text-gray-400">
+      <p class="mb-3 text-gray-500">
         I am available for full-term, short-term projects and part-time longer-term engagements.
       </p>
-      <p class="mb-3 text-gray-500 dark:text-gray-400">Contact me: Abdullahabubakar461@gmail.com</p>
-      <p class="mb-3 text-gray-500 dark:text-gray-400">
+      <p class="mb-3 text-gray-500">Contact me: Abdullahabubakar461@gmail.com</p>
+      <p class="mb-3 text-gray-500">
         My journey in the world of technology began with a curiosity for Programming and a desire to
         bring creative ideas to live.
 
