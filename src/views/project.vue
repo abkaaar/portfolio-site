@@ -1,8 +1,48 @@
 <template>
+   
   <div class="header m-10">
     <h1 class="mb-4 text-4xl tracking-tight leading-none text-center md:text-5xl lg:text-6xl">
       projects
     </h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 p-4 mt-24 gap-8 cvp">
+          <div class="max-w-sm p-6 shadow hover:shadow-xl rounded-lg">
+            <img src="../assets/static/datacollection.png" alt="" />
+            <div class="text-start">
+              <h5 class="mt-6 text-2xl font-semibold tracking-tight text-gray-900">Collect</h5>
+
+              <p class="mb-3 font-normal text-gray-500 mt-4">
+                I have data collection and management experience with QuestionPro, Zonka,
+                BeautifulSoup, Commcare and Airtable.
+              </p>
+            </div>
+          </div>
+          <div class="max-w-sm p-6 shadow hover:shadow-xl rounded-lg">
+            <img src="../assets/static/natural-language-processing.png" alt="" />
+            <div class="text-start">
+              <h5
+                class="mt-6 text-align-start mb-2 text-2xl font-semibold tracking-tight text-gray-900"
+              >
+                Process
+              </h5>
+              <p class="mt-4 font-normal text-gray-500">
+                I can offer support on improving existing workflows and creation of new processes,
+                covering data transformation with SQL and predictive Analysis with Machine learning.
+              </p>
+            </div>
+          </div>
+          <div class="max-w-sm p-6 shadow hover:shadow-xl rounded-lg">
+            <img src="../assets/static/statistics.png" alt="" />
+            <div class="text-start">
+              <h5 class="mt-6 text-2xl font-semibold tracking-tight text-gray-900">Visualize</h5>
+
+              <p class="mt-4 font-normal text-gray-500">
+                I have experience creating interactive Dashboards and charts that provide vaulable
+                insights with Power-Bi, Microsoft Excel and Python.
+              </p>
+            </div>
+          </div>
+        </div>
 
     <p class="mt-8 text-center">A sample of my work</p>
   </div>
