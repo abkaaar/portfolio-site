@@ -1,9 +1,21 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
-   
-  <div class="header m-10">
-    <h1 class="mb-4 text-4xl tracking-tight leading-none text-center md:text-5xl lg:text-6xl">
+  <div class="header mt-10">
+    <h1 class="mb-4 text-4xl tracking-tight leading-none text-center ">
       projects
     </h1>
+    <div class="flex justify-center gap-4">
+      <RouterLink
+            to="/web-development"
+            class=" underline"
+          > Web Development
+            </RouterLink> <span> | </span><RouterLink
+            to="/data-science"
+            class="underline"
+          > Data Science
+            </RouterLink>
+    </div>
+    <p class="mt-8 text-center">A sample of my analysis  work</p>
 
     <div class="grid grid-cols-1 md:grid-cols-3 p-4 mt-24 gap-8 cvp">
           <div class="max-w-sm p-6 shadow hover:shadow-xl rounded-lg">
@@ -44,7 +56,6 @@
           </div>
         </div>
 
-    <p class="mt-8 text-center">A sample of my work</p>
   </div>
 
   <div class="project flex justify-center items-center">
@@ -115,13 +126,6 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kaushan+Script&family=Montserrat&family=Pacifico&display=swap');
 
-/* @media (min-width: 1024px) {
-  .project {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-} */
 .header h1 {
   color: black;
 }
@@ -215,14 +219,3 @@
   border-radius: 50px;
 }
 </style>
-<script>
-
-
-  /**
-   * Initiate portfolio lightbox 
-   */
-  // const portfolioLightbox = GLightbox({
-  //   selector: '.portfolio-lightbox'
-  // });
-
-</script>

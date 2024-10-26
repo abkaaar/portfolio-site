@@ -18,21 +18,20 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue')
     },
     {
-      path: '/project',
-      name: 'project',
+      path: '/data-science',
+      name: 'data-science',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/project.vue')
+      component: () => import('../views/data-science.vue')
     },
     {
-      path: '/writings',
-      name: 'writings',
+      path: '/web-development',
+      name: 'web-development',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      // component: () => import('../views/writings.vue')
-      component: HomeView
+      component: () => import('../views/web-development.vue')
 
     }
   ]

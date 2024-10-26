@@ -1,6 +1,5 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
@@ -24,7 +23,6 @@ import HelloWorld from './components/HelloWorld.vue'
   </div>
 </nav>
     <div class="wrapper">
-      <!-- <HelloWorld msg="You did it!" /> -->
     </div>
   </header>
   <RouterView />
@@ -33,7 +31,7 @@ import HelloWorld from './components/HelloWorld.vue'
     
       <li><a target="_blank" href="https://www.linkedin.com/in/abdullah-abubakar-5a7965197"><img src="../src/assets/static/icon/002-linkedin.png" alt="linkedin"></a></li>
       <li><a target="_blank" href="https://github.com/abdullah461"><img src="../src/assets/static/icon/005-github.png" alt="github"></a></li>
-      <li><a target="_blank" href="https://twitter.com/Abu_______bakar"><img src="../src/assets/static/icon/001-twitter.png" alt="twitter"></a></li>
+      <li><a target="_blank" href="https://twitter.com/Abkaaar"><img src="../src/assets/static/icon/001-twitter.png" alt="twitter"></a></li>
       <li><a target="_blank" href="https://www.instagram.com/abdvvl"><img src="../src/assets/static/icon/004-instagram.png" alt="instagram"></a></li>
       <li><a target="_blank" href="https://www.kaggle.com/abdullahabubakar"><img src="../src/assets/static/icon/003-letter-k.png" alt="kaggle"></a></li>
     </ul>
@@ -84,7 +82,6 @@ nav a.router-link-exact-active:hover {
 nav a {
   font-family: 'Zian', sans-serif;
   display: inline-block;
-  padding: 0 1rem;
 }
 
 nav a:first-of-type {
