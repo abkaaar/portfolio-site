@@ -297,6 +297,38 @@ body:not(.user-is-tabbing) a:focus {
     font-family: sans-serif;
 }
 
+/* --------------------------------------- */
+/* ----- work__button ----- */
+
+.work__btn-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: var(--gutter-normal);
+}
+
+.work__button {
+    padding: 2rem 3rem;
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid gray;
+    cursor: pointer;
+    font-weight: 400;
+
+}
+
+
+
+
+/* --------------------------------------- */
+
+/* ----- More work ----- */
+
+.more__work{
+    display: none;
+}
+
+
 /* ----- Back to Top ----- */
 
 .back-to-top {

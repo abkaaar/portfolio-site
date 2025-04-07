@@ -41,3 +41,12 @@ window.addEventListener("scroll", () => {
     alterStyles(isBackToTopRendered);
   }
 });
+
+
+const moreProjectsButton = document.querySelector(".work__button");
+const moreProjectsContainer = document.querySelector(".more__work");
+
+moreProjectsButton.addEventListener("click", () => {
+  moreProjectsContainer.style.display = "block"; // show container
+  moreProjectsButton.style.display = "none";     // hide button
+});
